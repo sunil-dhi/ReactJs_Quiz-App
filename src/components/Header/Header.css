@@ -1,0 +1,17 @@
+.title{
+    cursor:pointer;
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.divider{
+   background-color: gray;
+   margin: 10px;
+   width: 100%;
+}

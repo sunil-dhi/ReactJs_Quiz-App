@@ -1,0 +1,20 @@
+.quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle{
+    font-size: 25px;
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    box-shadow: 4px 4px 2px black;
+}
+
+.quiz_info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 10px;
+}

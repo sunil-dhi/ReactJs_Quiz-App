@@ -1,0 +1,44 @@
+.content{
+display: flex;
+justify-content: space-around;
+}
+
+
+.settings{
+   width:45%;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   font-weight: 300;
+   align-items: center;
+}
+
+.banner{
+  width: 55%;
+  align-self: center;
+  padding: 8px;
+}
+
+.settings_select{
+
+ display: flex;
+ width: 100%;
+ padding: 20px;
+ flex-direction: column;
+}
+@media(max-width:800px){
+    .content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .settings{
+        width: 100%;
+
+    }
+    .banner{
+        width: 85%;
+        padding-top: 20px;
+        padding: 0;
+    }
+}
+
